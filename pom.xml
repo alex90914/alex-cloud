@@ -9,6 +9,7 @@
         <module>alex-cloud-system</module>
         <module>alex-cloud-config</module>
         <module>alex-cloud-zuul</module>
+        <module>alex-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

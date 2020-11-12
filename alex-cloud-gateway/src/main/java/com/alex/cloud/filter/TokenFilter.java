@@ -21,8 +21,7 @@ public class TokenFilter implements GlobalFilter, Ordered {
         ServerHttpRequest request = exchange.getRequest();
         String method = request.getMethod().name();
         System.out.println("method:" + method);
-        //可能引发空指针异常
-        String token = request.getHeaders().get("token").toString();
+        String token = request.getHeaders().getFirst("token");
         System.out.println("token:" + token);
         if (token == null || token.isEmpty()) {
             response.setStatusCode(HttpStatus.UNAUTHORIZED);
