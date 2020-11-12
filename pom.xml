@@ -6,7 +6,6 @@
     <modules>
         <module>alex-cloud-server</module>
         <module>alex-cloud-gateway</module>
-        <module>alex-cloud-service</module>
         <module>alex-cloud-system</module>
         <module>alex-cloud-config</module>
         <module>alex-cloud-zuul</module>
